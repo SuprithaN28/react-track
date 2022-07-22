@@ -1,0 +1,45 @@
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  display: inline;
+}
+
+.table {
+  top: 1011px;
+  left: 140px;
+  width: 109px;
+  height: 12px;
+  /* UI Properties */
+  opacity: 1;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.paginationa {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+li {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  display: inline;
+}

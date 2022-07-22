@@ -1,0 +1,23 @@
+.label {
+  /* Layout Properties */
+  top: 243px;
+  left: 440px;
+  width: 85px;
+  height: 15px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #454545;
+  opacity: 1;
+}
+
+.textarea {
+  /* Layout Properties */
+
+  width: 509px;
+  height: 763px;
+  /* UI Properties */
+  background: #f6f8ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}

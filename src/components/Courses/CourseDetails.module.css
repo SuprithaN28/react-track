@@ -1,0 +1,178 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  height: 50px;
+  align-items: center;
+}
+
+.sort {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.allcourse {
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #0f1317;
+  opacity: 1;
+}
+
+.banner {
+  width: 100%;
+  background: #0f1317 0% 0% no-repeat padding-box;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem 10rem;
+  height: 200px;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.text {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: white;
+}
+
+.texttag {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.tags {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: black;
+  background: white;
+  height: 20px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+}
+
+.heading {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.blocks {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.details {
+  width: 60%;
+  height: 50vh;
+  font-family: Montserrat;
+  font-size: 18px;
+  padding: 1rem;
+  margin: 0.5rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e0e0e0;
+  display: flex;
+}
+
+.courseDetailsBox {
+  width: 40%;
+  height: 50vh;
+  padding: 1rem;
+  margin: 0.5rem;
+  justify-content: space-evenly;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+
+.priceinfo {
+  font-family: Montserrat;
+  font-size: 20px;
+  flex: 1;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.finaldetails {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  font: normal normal bold 24px/28px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricediscount {
+  font: normal normal 30px/32px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 50%;
+  height: 40px;
+  margin: 0.5rem;
+  background: #ff6738 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.wishlist {
+  width: 50%;
+  height: 40px;
+  margin: 0.5rem;
+  border: none;
+  /* UI Properties */
+  background: #f8f6f6 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.courseButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}

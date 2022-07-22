@@ -1,0 +1,13 @@
+.label {
+    /* Layout Properties */
+    top: 243px;
+    left: 440px;
+    width: 85px;
+    height: 15px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+  }

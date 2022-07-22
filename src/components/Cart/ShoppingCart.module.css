@@ -1,0 +1,166 @@
+.header {
+  width: 80%;
+  height: 200px;
+  font: normal normal 600 20px/24px Montserrat;
+  background: #0f1317 0% 0% no-repeat padding-box;
+}
+
+.image {
+  width: 100%;
+}
+
+.text {
+  font: normal normal 600 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: xx-large;
+  position: absolute;
+  top: 100px;
+  left: 16px;
+}
+
+.text1 {
+  font: normal normal 600 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: xx-large;
+  position: absolute;
+  top: 80px;
+  left: 16px;
+}
+
+.textbox {
+  padding: 16px;
+  position: relative;
+  text-align: center;
+}
+
+.headerimg {
+  width: 100%;
+  height: 175px;
+}
+
+.card {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+  border-radius: 6px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  flex-direction: row;
+  height: 100px;
+}
+
+.total {
+  margin: 2rem 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+  border-radius: 6px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  flex-direction: column;
+  height: 50vh;
+  width: 30%;
+}
+
+.totallen {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  flex-direction: column;
+  height: 100px;
+  width: 30%;
+}
+
+.box {
+  /* UI Properties */
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 70px;
+  width: 70px;
+}
+
+.coursename {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coursetitle {
+  font: normal normal 600 24px/28px Montserrat;
+  color: #080808;
+  opacity: 1;
+  line-height: 1.5em;
+  overflow: visible;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  width: 80%;
+  padding: 0.5rem;
+  align-items: center;
+  flex: 1;
+}
+
+.linktext {
+  color: #0b7f0f;
+}
+
+.btn {
+  width: 100%;
+  background: #ff6738 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  cursor: pointer;
+  margin: 0.5rem;
+  height: 40px;
+}
+
+.arrow {
+  width: 6px;
+  height: 12px;
+}
+
+.react {
+  width: 78px;
+  height: 21px;
+  /* UI Properties */
+  background: #ff6738 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.start {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.courselist {
+  width: 70%;
+  height: 640px;
+  padding: 10px;
+}
+
+.cartDetails {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.shoppingCartDashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommended {
+  width: 80%;
+}

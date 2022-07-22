@@ -1,0 +1,86 @@
+.home {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  height: 50px;
+  align-items: center;
+}
+
+.sort {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.search {
+  justify-content: flex-end;
+  width: 30%;
+  text-align: right;
+}
+
+.course {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.courselist {
+  width: 70%;
+  height: 640px;
+  padding: 10px;
+}
+
+.allcourse {
+  /* Layout Properties */
+
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #0f1317;
+  opacity: 1;
+}
+
+.filter {
+  color: white;
+  padding: 0 1rem;
+}
+
+.filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.filterimg {
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.searchbtn {
+  background: #ff6738 0% 0% no-repeat padding-box;
+}
+
+.searchimg {
+  width: 16px;
+  height: 16px;
+}
+
+.cartitems {
+  width: 30%;
+  padding: 10px;
+}
+
